@@ -1,0 +1,881 @@
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\BlabAdapter.cs
+FN:17,System.Void BlabberApp.DataStore.BlabAdapter::Add(BlabberApp.Domain.Blab)
+FNDA:6,System.Void BlabberApp.DataStore.BlabAdapter::Add(BlabberApp.Domain.Blab)
+DA:18,6
+DA:19,6
+DA:20,6
+FN:22,System.Void BlabberApp.DataStore.BlabAdapter::Remove(BlabberApp.Domain.Blab)
+FNDA:10,System.Void BlabberApp.DataStore.BlabAdapter::Remove(BlabberApp.Domain.Blab)
+DA:23,10
+DA:24,10
+DA:25,10
+FN:27,System.Void BlabberApp.DataStore.BlabAdapter::Update(BlabberApp.Domain.Blab)
+FNDA:1,System.Void BlabberApp.DataStore.BlabAdapter::Update(BlabberApp.Domain.Blab)
+DA:28,1
+DA:29,1
+DA:30,1
+FN:32,System.Collections.IEnumerable BlabberApp.DataStore.BlabAdapter::GetAll()
+FNDA:3,System.Collections.IEnumerable BlabberApp.DataStore.BlabAdapter::GetAll()
+DA:33,3
+DA:34,3
+DA:35,3
+FN:37,BlabberApp.Domain.Blab BlabberApp.DataStore.BlabAdapter::GetById(System.Guid)
+FNDA:3,BlabberApp.Domain.Blab BlabberApp.DataStore.BlabAdapter::GetById(System.Guid)
+DA:38,3
+DA:40,3
+DA:41,3
+DA:42,2
+DA:44,1
+DA:45,1
+DA:46,1
+DA:48,2
+FN:50,System.Collections.IEnumerable BlabberApp.DataStore.BlabAdapter::GetByUserId(System.String)
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.BlabAdapter::GetByUserId(System.String)
+DA:51,1
+DA:52,1
+DA:53,1
+FN:11,System.Void BlabberApp.DataStore.BlabAdapter::.ctor(BlabberApp.DataStore.IBlabPlugin)
+FNDA:6,System.Void BlabberApp.DataStore.BlabAdapter::.ctor(BlabberApp.DataStore.IBlabPlugin)
+DA:12,6
+DA:13,6
+DA:14,6
+DA:15,6
+LF:27
+LH:27
+BRF:0
+BRH:0
+FNF:7
+FNH:7
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\InMemory.cs
+FN:16,System.Void BlabberApp.DataStore.InMemory::Create(BlabberApp.Domain.IEntity)
+FNDA:10,System.Void BlabberApp.DataStore.InMemory::Create(BlabberApp.Domain.IEntity)
+DA:17,10
+DA:18,10
+DA:19,10
+FN:21,System.Collections.IEnumerable BlabberApp.DataStore.InMemory::ReadAll()
+FNDA:5,System.Collections.IEnumerable BlabberApp.DataStore.InMemory::ReadAll()
+DA:22,5
+DA:23,5
+DA:24,5
+FN:26,BlabberApp.Domain.IEntity BlabberApp.DataStore.InMemory::ReadById(System.Guid)
+FNDA:1,BlabberApp.Domain.IEntity BlabberApp.DataStore.InMemory::ReadById(System.Guid)
+DA:27,1
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,1
+DA:33,0
+BRDA:28,57,1,0
+BRDA:30,44,0,0
+BRDA:30,44,1,0
+BRDA:28,57,0,1
+FN:34,System.Collections.IEnumerable BlabberApp.DataStore.InMemory::ReadByUserId(System.String)
+FNDA:0,System.Collections.IEnumerable BlabberApp.DataStore.InMemory::ReadByUserId(System.String)
+DA:35,0
+DA:36,0
+FN:38,BlabberApp.Domain.IEntity BlabberApp.DataStore.InMemory::ReadByUserEmail(System.String)
+FNDA:16,BlabberApp.Domain.IEntity BlabberApp.DataStore.InMemory::ReadByUserEmail(System.String)
+DA:39,16
+DA:40,59
+DA:41,9
+DA:42,9
+DA:43,7
+DA:44,7
+DA:46,2
+DA:47,9
+DA:48,7
+BRDA:40,57,1,9
+BRDA:42,43,0,7
+BRDA:42,43,1,2
+BRDA:40,57,0,9
+FN:50,System.Void BlabberApp.DataStore.InMemory::Update(BlabberApp.Domain.IEntity)
+FNDA:1,System.Void BlabberApp.DataStore.InMemory::Update(BlabberApp.Domain.IEntity)
+DA:51,1
+DA:52,1
+DA:53,1
+DA:54,1
+FN:56,System.Void BlabberApp.DataStore.InMemory::Delete(BlabberApp.Domain.IEntity)
+FNDA:2,System.Void BlabberApp.DataStore.InMemory::Delete(BlabberApp.Domain.IEntity)
+DA:57,2
+DA:58,2
+DA:59,2
+FN:10,System.Void BlabberApp.DataStore.InMemory::.ctor()
+FNDA:18,System.Void BlabberApp.DataStore.InMemory::.ctor()
+DA:11,18
+DA:12,18
+DA:13,18
+DA:14,18
+LF:35
+LH:28
+BRF:8
+BRH:5
+FNF:8
+FNH:7
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\MySqlBlab.cs
+FN:25,System.Void BlabberApp.DataStore.MySqlBlab::Close()
+FNDA:0,System.Void BlabberApp.DataStore.MySqlBlab::Close()
+DA:26,0
+DA:27,0
+DA:28,0
+FN:29,System.Void BlabberApp.DataStore.MySqlBlab::Create(BlabberApp.Domain.IEntity)
+FNDA:4,System.Void BlabberApp.DataStore.MySqlBlab::Create(BlabberApp.Domain.IEntity)
+DA:30,4
+DA:31,4
+DA:33,4
+DA:34,4
+DA:35,4
+DA:36,4
+DA:37,4
+DA:38,4
+DA:39,4
+DA:40,4
+DA:41,4
+DA:42,4
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,4
+FN:49,System.Collections.IEnumerable BlabberApp.DataStore.MySqlBlab::ReadAll()
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.MySqlBlab::ReadAll()
+DA:50,1
+DA:51,1
+DA:52,1
+DA:53,1
+DA:54,1
+DA:55,1
+DA:56,1
+DA:58,1
+DA:60,1
+DA:61,5
+DA:62,1
+DA:63,1
+DA:64,1
+DA:66,1
+DA:68,0
+DA:69,0
+DA:71,1
+BRDA:61,122,1,1
+BRDA:61,122,0,1
+FN:73,BlabberApp.Domain.IEntity BlabberApp.DataStore.MySqlBlab::ReadById(System.Guid)
+FNDA:3,BlabberApp.Domain.IEntity BlabberApp.DataStore.MySqlBlab::ReadById(System.Guid)
+DA:74,3
+DA:76,3
+DA:77,3
+DA:79,3
+DA:80,3
+DA:81,3
+DA:82,3
+DA:84,3
+DA:86,3
+DA:87,2
+DA:89,2
+DA:91,2
+DA:93,1
+DA:94,1
+DA:95,1
+DA:97,2
+FN:99,System.Collections.IEnumerable BlabberApp.DataStore.MySqlBlab::ReadByUserId(System.String)
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.MySqlBlab::ReadByUserId(System.String)
+DA:100,1
+DA:102,1
+DA:103,1
+DA:105,1
+DA:106,1
+DA:107,1
+DA:109,1
+DA:111,1
+DA:113,5
+DA:114,1
+DA:115,1
+DA:116,1
+DA:118,1
+DA:120,0
+DA:121,0
+DA:122,0
+DA:124,1
+BRDA:113,131,1,1
+BRDA:113,131,0,1
+FN:126,System.Void BlabberApp.DataStore.MySqlBlab::Update(BlabberApp.Domain.IEntity)
+FNDA:1,System.Void BlabberApp.DataStore.MySqlBlab::Update(BlabberApp.Domain.IEntity)
+DA:127,1
+DA:128,1
+DA:130,1
+DA:131,1
+DA:132,1
+DA:133,1
+DA:134,1
+DA:135,1
+DA:136,1
+DA:137,0
+DA:138,0
+DA:139,0
+DA:141,1
+FN:143,System.Void BlabberApp.DataStore.MySqlBlab::Delete(BlabberApp.Domain.IEntity)
+FNDA:10,System.Void BlabberApp.DataStore.MySqlBlab::Delete(BlabberApp.Domain.IEntity)
+DA:144,10
+DA:145,10
+DA:146,10
+DA:147,10
+DA:148,10
+DA:149,10
+DA:150,0
+DA:151,0
+DA:153,10
+FN:155,BlabberApp.Domain.Blab BlabberApp.DataStore.MySqlBlab::DataRow2Blab(System.Data.DataRow)
+FNDA:2,BlabberApp.Domain.Blab BlabberApp.DataStore.MySqlBlab::DataRow2Blab(System.Data.DataRow)
+DA:156,2
+DA:157,2
+DA:159,2
+DA:161,2
+DA:163,2
+DA:164,2
+DA:165,2
+DA:167,2
+DA:168,2
+FN:11,System.Void BlabberApp.DataStore.MySqlBlab::.ctor()
+FNDA:1,System.Void BlabberApp.DataStore.MySqlBlab::.ctor()
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,1
+LF:111
+LH:92
+BRF:4
+BRH:4
+FNF:9
+FNH:8
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\MySqlContext.cs
+FN:7,Microsoft.EntityFrameworkCore.DbSet`1<BlabberApp.Domain.Blab> BlabberApp.DataStore.MySqlContext::get_Blab()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<BlabberApp.Domain.Blab> BlabberApp.DataStore.MySqlContext::get_Blab()
+DA:8,0
+FN:9,Microsoft.EntityFrameworkCore.DbSet`1<BlabberApp.Domain.User> BlabberApp.DataStore.MySqlContext::get_User()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<BlabberApp.Domain.User> BlabberApp.DataStore.MySqlContext::get_User()
+DA:10,0
+FN:12,System.Void BlabberApp.DataStore.MySqlContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+FNDA:0,System.Void BlabberApp.DataStore.MySqlContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+DA:13,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:19,System.Void BlabberApp.DataStore.MySqlContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void BlabberApp.DataStore.MySqlContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:20,0
+DA:21,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+LF:23
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\MySqlUser.cs
+FN:25,System.Void BlabberApp.DataStore.MySqlUser::Close()
+FNDA:0,System.Void BlabberApp.DataStore.MySqlUser::Close()
+DA:26,0
+DA:27,0
+DA:28,0
+FN:29,System.Void BlabberApp.DataStore.MySqlUser::Create(BlabberApp.Domain.IEntity)
+FNDA:5,System.Void BlabberApp.DataStore.MySqlUser::Create(BlabberApp.Domain.IEntity)
+DA:30,5
+DA:31,5
+DA:33,5
+DA:34,5
+DA:35,5
+DA:36,5
+DA:37,5
+DA:38,5
+DA:39,5
+DA:40,5
+DA:41,5
+DA:42,5
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,5
+FN:49,System.Collections.IEnumerable BlabberApp.DataStore.MySqlUser::ReadAll()
+FNDA:1,System.Collections.IEnumerable BlabberApp.DataStore.MySqlUser::ReadAll()
+DA:50,1
+DA:52,1
+DA:53,1
+DA:54,1
+DA:55,1
+DA:56,1
+DA:58,1
+DA:60,1
+DA:62,5
+DA:63,1
+DA:64,1
+DA:65,1
+DA:67,1
+DA:69,0
+DA:70,0
+DA:71,0
+DA:73,1
+BRDA:62,120,1,1
+BRDA:62,120,0,1
+FN:75,BlabberApp.Domain.IEntity BlabberApp.DataStore.MySqlUser::ReadById(System.Guid)
+FNDA:1,BlabberApp.Domain.IEntity BlabberApp.DataStore.MySqlUser::ReadById(System.Guid)
+DA:76,1
+DA:78,1
+DA:79,1
+DA:80,1
+DA:81,1
+DA:82,1
+DA:84,1
+DA:86,1
+DA:88,1
+DA:90,0
+DA:91,0
+DA:92,0
+DA:94,1
+FN:95,BlabberApp.Domain.IEntity BlabberApp.DataStore.MySqlUser::ReadByUserEmail(System.String)
+FNDA:10,BlabberApp.Domain.IEntity BlabberApp.DataStore.MySqlUser::ReadByUserEmail(System.String)
+DA:96,10
+DA:98,10
+DA:99,10
+DA:100,10
+DA:101,10
+DA:102,10
+DA:104,10
+DA:106,10
+DA:108,5
+DA:110,5
+DA:111,5
+DA:112,5
+DA:114,5
+FN:116,System.Void BlabberApp.DataStore.MySqlUser::Update(BlabberApp.Domain.IEntity)
+FNDA:1,System.Void BlabberApp.DataStore.MySqlUser::Update(BlabberApp.Domain.IEntity)
+DA:117,1
+DA:118,1
+DA:120,1
+DA:121,1
+DA:122,1
+DA:123,1
+DA:124,1
+DA:125,1
+DA:126,1
+DA:127,1
+DA:128,0
+DA:129,0
+DA:130,0
+DA:132,1
+FN:134,System.Void BlabberApp.DataStore.MySqlUser::Delete(BlabberApp.Domain.IEntity)
+FNDA:6,System.Void BlabberApp.DataStore.MySqlUser::Delete(BlabberApp.Domain.IEntity)
+DA:135,6
+DA:136,6
+DA:137,6
+DA:138,6
+DA:139,6
+DA:140,6
+DA:141,0
+DA:142,0
+DA:144,6
+FN:146,BlabberApp.Domain.User BlabberApp.DataStore.MySqlUser::DataRow2User(System.Data.DataRow)
+FNDA:7,BlabberApp.Domain.User BlabberApp.DataStore.MySqlUser::DataRow2User(System.Data.DataRow)
+DA:147,7
+DA:148,7
+DA:150,7
+DA:151,7
+DA:152,7
+DA:153,7
+DA:155,7
+DA:156,7
+FN:11,System.Void BlabberApp.DataStore.MySqlUser::.ctor()
+FNDA:1,System.Void BlabberApp.DataStore.MySqlUser::.ctor()
+DA:12,1
+DA:13,1
+DA:14,1
+DA:15,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,1
+LF:104
+LH:84
+BRF:2
+BRH:2
+FNF:9
+FNH:8
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\UserAdapter.cs
+FN:17,System.Void BlabberApp.DataStore.UserAdapter::Add(BlabberApp.Domain.User)
+FNDA:14,System.Void BlabberApp.DataStore.UserAdapter::Add(BlabberApp.Domain.User)
+DA:18,14
+DA:20,14
+DA:21,14
+DA:22,2
+DA:23,12
+DA:24,12
+DA:26,12
+DA:27,12
+DA:28,12
+DA:30,0
+DA:31,0
+DA:32,0
+DA:35,2
+DA:36,12
+FN:38,System.Void BlabberApp.DataStore.UserAdapter::Remove(BlabberApp.Domain.User)
+FNDA:7,System.Void BlabberApp.DataStore.UserAdapter::Remove(BlabberApp.Domain.User)
+DA:39,7
+DA:41,7
+DA:42,7
+DA:43,7
+DA:44,0
+DA:45,0
+DA:46,0
+DA:48,7
+FN:50,System.Void BlabberApp.DataStore.UserAdapter::Update(BlabberApp.Domain.User)
+FNDA:3,System.Void BlabberApp.DataStore.UserAdapter::Update(BlabberApp.Domain.User)
+DA:51,3
+DA:53,3
+DA:54,3
+DA:55,2
+DA:56,2
+DA:57,1
+DA:58,1
+DA:59,1
+DA:61,2
+FN:63,System.Collections.IEnumerable BlabberApp.DataStore.UserAdapter::GetAll()
+FNDA:4,System.Collections.IEnumerable BlabberApp.DataStore.UserAdapter::GetAll()
+DA:64,4
+DA:66,4
+DA:67,4
+DA:69,0
+DA:70,0
+DA:71,0
+DA:73,4
+FN:75,BlabberApp.Domain.User BlabberApp.DataStore.UserAdapter::GetById(System.Guid)
+FNDA:2,BlabberApp.Domain.User BlabberApp.DataStore.UserAdapter::GetById(System.Guid)
+DA:76,2
+DA:78,2
+DA:79,2
+DA:80,1
+DA:82,1
+DA:83,1
+DA:84,1
+DA:86,1
+FN:88,BlabberApp.Domain.User BlabberApp.DataStore.UserAdapter::GetByEmail(System.String)
+FNDA:26,BlabberApp.Domain.User BlabberApp.DataStore.UserAdapter::GetByEmail(System.String)
+DA:89,26
+DA:91,26
+DA:92,26
+DA:93,12
+DA:95,14
+DA:96,14
+DA:97,14
+DA:99,12
+FN:11,System.Void BlabberApp.DataStore.UserAdapter::.ctor(BlabberApp.DataStore.IUserPlugin)
+FNDA:14,System.Void BlabberApp.DataStore.UserAdapter::.ctor(BlabberApp.DataStore.IUserPlugin)
+DA:12,14
+DA:13,14
+DA:14,14
+DA:15,14
+LF:58
+LH:49
+BRF:0
+BRH:0
+FNF:7
+FNH:7
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\Exceptions\BlabAdapterExceptions.cs
+FN:6,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String)
+DA:7,0
+DA:8,0
+DA:10,0
+FN:11,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterException::.ctor(System.String,System.Exception)
+DA:12,0
+DA:13,0
+DA:15,0
+FN:18,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String)
+FNDA:1,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String)
+DA:19,1
+DA:20,1
+DA:22,1
+FN:23,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.BlabAdapterNotFoundException::.ctor(System.String,System.Exception)
+DA:24,0
+DA:25,0
+DA:27,0
+LF:12
+LH:3
+BRF:0
+BRH:0
+FNF:4
+FNH:1
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.DataStore\Exceptions\UserAdapterExceptions.cs
+FN:6,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String)
+FNDA:1,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String)
+DA:7,1
+DA:8,1
+DA:10,1
+FN:11,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterException::.ctor(System.String,System.Exception)
+DA:12,0
+DA:13,0
+DA:15,0
+FN:18,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String)
+FNDA:15,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String)
+DA:19,15
+DA:20,15
+DA:22,15
+FN:23,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterNotFoundException::.ctor(System.String,System.Exception)
+DA:24,0
+DA:25,0
+DA:27,0
+FN:30,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String)
+FNDA:2,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String)
+DA:31,2
+DA:32,2
+DA:34,2
+FN:35,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String,System.Exception)
+FNDA:0,System.Void BlabberApp.DataStore.Exceptions.UserAdapterDuplicateException::.ctor(System.String,System.Exception)
+DA:36,0
+DA:37,0
+DA:39,0
+LF:18
+LH:9
+BRF:0
+BRH:0
+FNF:6
+FNH:3
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.Domain\Blab.cs
+FN:35,System.Guid BlabberApp.Domain.Blab::get_Id()
+FNDA:45,System.Guid BlabberApp.Domain.Blab::get_Id()
+DA:36,45
+FN:36,System.DateTime BlabberApp.Domain.Blab::get_DTTM()
+FNDA:22,System.DateTime BlabberApp.Domain.Blab::get_DTTM()
+DA:37,22
+FN:37,System.String BlabberApp.Domain.Blab::get_Message()
+FNDA:27,System.String BlabberApp.Domain.Blab::get_Message()
+DA:38,27
+FN:38,BlabberApp.Domain.User BlabberApp.Domain.Blab::get_User()
+FNDA:23,BlabberApp.Domain.User BlabberApp.Domain.Blab::get_User()
+DA:39,23
+FN:40,System.Boolean BlabberApp.Domain.Blab::IsValid()
+FNDA:0,System.Boolean BlabberApp.Domain.Blab::IsValid()
+DA:41,0
+DA:43,0
+DA:44,0
+FN:7,System.Void BlabberApp.Domain.Blab::.ctor()
+FNDA:2,System.Void BlabberApp.Domain.Blab::.ctor()
+DA:8,2
+DA:9,2
+DA:10,2
+DA:11,2
+DA:12,2
+DA:13,2
+DA:14,2
+FN:14,System.Void BlabberApp.Domain.Blab::.ctor(System.String)
+FNDA:1,System.Void BlabberApp.Domain.Blab::.ctor(System.String)
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+DA:19,1
+DA:20,1
+DA:21,1
+FN:21,System.Void BlabberApp.Domain.Blab::.ctor(BlabberApp.Domain.User)
+FNDA:2,System.Void BlabberApp.Domain.Blab::.ctor(BlabberApp.Domain.User)
+DA:22,2
+DA:23,2
+DA:24,2
+DA:25,2
+DA:26,2
+DA:27,2
+DA:28,2
+FN:28,System.Void BlabberApp.Domain.Blab::.ctor(System.String,BlabberApp.Domain.User)
+FNDA:13,System.Void BlabberApp.Domain.Blab::.ctor(System.String,BlabberApp.Domain.User)
+DA:29,13
+DA:30,13
+DA:31,13
+DA:32,13
+DA:33,13
+DA:34,13
+DA:35,13
+LF:35
+LH:32
+BRF:0
+BRH:0
+FNF:9
+FNH:8
+end_of_record
+SF:C:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.Domain\User.cs
+FN:6,System.Guid BlabberApp.Domain.User::get_Id()
+FNDA:72,System.Guid BlabberApp.Domain.User::get_Id()
+DA:7,72
+FN:7,System.DateTime BlabberApp.Domain.User::get_RegisterDTTM()
+FNDA:9,System.DateTime BlabberApp.Domain.User::get_RegisterDTTM()
+DA:8,9
+FN:8,System.DateTime BlabberApp.Domain.User::get_LastLoginDTTM()
+FNDA:13,System.DateTime BlabberApp.Domain.User::get_LastLoginDTTM()
+DA:9,13
+FN:9,System.String BlabberApp.Domain.User::get_Email()
+FNDA:108,System.String BlabberApp.Domain.User::get_Email()
+DA:10,108
+FN:23,System.Void BlabberApp.Domain.User::ChangeEmail(System.String)
+FNDA:54,System.Void BlabberApp.Domain.User::ChangeEmail(System.String)
+DA:24,54
+DA:25,54
+DA:26,1
+DA:28,53
+DA:29,53
+DA:30,52
+DA:31,1
+DA:32,1
+DA:33,1
+DA:35,52
+DA:36,52
+BRDA:25,7,0,53
+BRDA:25,7,1,1
+BRDA:25,24,0,1
+BRDA:25,24,1,53
+FN:37,System.Boolean BlabberApp.Domain.User::IsValid()
+FNDA:2,System.Boolean BlabberApp.Domain.User::IsValid()
+DA:38,2
+DA:39,3
+DA:40,1
+DA:41,1
+BRDA:39,12,0,1
+BRDA:39,12,1,1
+FN:11,System.Void BlabberApp.Domain.User::.ctor()
+FNDA:13,System.Void BlabberApp.Domain.User::.ctor()
+DA:12,13
+DA:13,13
+DA:14,13
+DA:15,13
+FN:16,System.Void BlabberApp.Domain.User::.ctor(System.String)
+FNDA:44,System.Void BlabberApp.Domain.User::.ctor(System.String)
+DA:17,44
+DA:18,44
+DA:19,44
+DA:20,44
+DA:21,43
+LF:28
+LH:28
+BRF:6
+BRH:6
+FNF:8
+FNH:8
+end_of_record
+SF:c:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.Services\BlabService.cs
+FN:11,System.Void BlabberApp.Services.BlabService::AddBlab(System.String,System.String)
+FNDA:0,System.Void BlabberApp.Services.BlabService::AddBlab(System.String,System.String)
+DA:12,0
+DA:13,0
+DA:14,0
+FN:15,System.Void BlabberApp.Services.BlabService::AddBlab(BlabberApp.Domain.Blab)
+FNDA:6,System.Void BlabberApp.Services.BlabService::AddBlab(BlabberApp.Domain.Blab)
+DA:16,6
+DA:17,6
+DA:18,6
+FN:24,System.Collections.IEnumerable BlabberApp.Services.BlabService::GetAll()
+FNDA:2,System.Collections.IEnumerable BlabberApp.Services.BlabService::GetAll()
+DA:25,2
+DA:26,2
+DA:27,2
+FN:28,System.Collections.IEnumerable BlabberApp.Services.BlabService::FindUserBlabs(System.String)
+FNDA:1,System.Collections.IEnumerable BlabberApp.Services.BlabService::FindUserBlabs(System.String)
+DA:29,1
+DA:30,1
+FN:33,BlabberApp.Domain.Blab BlabberApp.Services.BlabService::CreateBlab(System.String,System.String)
+FNDA:1,BlabberApp.Domain.Blab BlabberApp.Services.BlabService::CreateBlab(System.String,System.String)
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+FN:39,BlabberApp.Domain.Blab BlabberApp.Services.BlabService::CreateBlab(System.String,BlabberApp.Domain.User)
+FNDA:0,BlabberApp.Domain.Blab BlabberApp.Services.BlabService::CreateBlab(System.String,BlabberApp.Domain.User)
+DA:40,0
+DA:41,0
+DA:42,0
+FN:44,System.Void BlabberApp.Services.BlabService::RemoveBlab(BlabberApp.Domain.Blab)
+FNDA:10,System.Void BlabberApp.Services.BlabService::RemoveBlab(BlabberApp.Domain.Blab)
+DA:45,10
+DA:46,10
+DA:47,10
+FN:49,System.Void BlabberApp.Services.BlabService::UpdateBlab(BlabberApp.Domain.Blab)
+FNDA:1,System.Void BlabberApp.Services.BlabService::UpdateBlab(BlabberApp.Domain.Blab)
+DA:50,1
+DA:51,1
+DA:52,1
+FN:18,System.Void BlabberApp.Services.BlabService::.ctor(BlabberApp.DataStore.BlabAdapter)
+FNDA:5,System.Void BlabberApp.Services.BlabService::.ctor(BlabberApp.DataStore.BlabAdapter)
+DA:19,5
+DA:20,5
+DA:21,5
+DA:22,5
+LF:28
+LH:22
+BRF:0
+BRH:0
+FNF:9
+FNH:7
+end_of_record
+SF:c:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.Services\BlabServiceFactory.cs
+FN:7,BlabberApp.DataStore.BlabAdapter BlabberApp.Services.BlabServiceFactory::CreateBlabAdapter(BlabberApp.DataStore.IBlabPlugin)
+FNDA:6,BlabberApp.DataStore.BlabAdapter BlabberApp.Services.BlabServiceFactory::CreateBlabAdapter(BlabberApp.DataStore.IBlabPlugin)
+DA:8,6
+DA:9,6
+DA:10,5
+DA:11,5
+DA:12,5
+DA:14,6
+DA:15,6
+BRDA:9,7,0,5
+BRDA:9,7,1,6
+FN:16,BlabberApp.DataStore.IBlabPlugin BlabberApp.Services.BlabServiceFactory::CreateBlabPlugin(System.String)
+FNDA:6,BlabberApp.DataStore.IBlabPlugin BlabberApp.Services.BlabServiceFactory::CreateBlabPlugin(System.String)
+DA:17,6
+DA:18,6
+DA:19,1
+DA:20,1
+DA:23,5
+DA:24,6
+BRDA:18,19,0,1
+BRDA:18,19,1,5
+FN:26,BlabberApp.Services.BlabService BlabberApp.Services.BlabServiceFactory::CreateBlabService(BlabberApp.DataStore.BlabAdapter)
+FNDA:5,BlabberApp.Services.BlabService BlabberApp.Services.BlabServiceFactory::CreateBlabService(BlabberApp.DataStore.BlabAdapter)
+DA:27,5
+DA:28,5
+DA:29,4
+DA:30,4
+DA:31,4
+DA:33,5
+DA:34,5
+BRDA:28,7,0,4
+BRDA:28,7,1,5
+LF:20
+LH:20
+BRF:6
+BRH:6
+FNF:3
+FNH:3
+end_of_record
+SF:c:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.Services\UserService.cs
+FN:16,System.Collections.IEnumerable BlabberApp.Services.UserService::GetAll()
+FNDA:4,System.Collections.IEnumerable BlabberApp.Services.UserService::GetAll()
+DA:17,4
+DA:18,4
+DA:19,4
+FN:21,System.Void BlabberApp.Services.UserService::AddNewUser(System.String)
+FNDA:14,System.Void BlabberApp.Services.UserService::AddNewUser(System.String)
+DA:22,14
+DA:24,14
+DA:25,14
+DA:26,11
+DA:27,3
+DA:28,3
+DA:29,3
+DA:31,11
+FN:44,BlabberApp.Domain.User BlabberApp.Services.UserService::CreateUser(System.String)
+FNDA:15,BlabberApp.Domain.User BlabberApp.Services.UserService::CreateUser(System.String)
+DA:45,15
+DA:46,15
+DA:47,14
+FN:49,BlabberApp.Domain.User BlabberApp.Services.UserService::FindUser(System.String)
+FNDA:9,BlabberApp.Domain.User BlabberApp.Services.UserService::FindUser(System.String)
+DA:50,9
+DA:51,9
+DA:52,8
+FN:54,System.Void BlabberApp.Services.UserService::RemoveUser(BlabberApp.Domain.User)
+FNDA:7,System.Void BlabberApp.Services.UserService::RemoveUser(BlabberApp.Domain.User)
+DA:55,7
+DA:57,7
+DA:58,7
+DA:59,7
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,7
+FN:66,System.Void BlabberApp.Services.UserService::UpdateUser(BlabberApp.Domain.User)
+FNDA:3,System.Void BlabberApp.Services.UserService::UpdateUser(BlabberApp.Domain.User)
+DA:67,3
+DA:68,3
+DA:69,2
+FN:10,System.Void BlabberApp.Services.UserService::.ctor(BlabberApp.DataStore.UserAdapter)
+FNDA:12,System.Void BlabberApp.Services.UserService::.ctor(BlabberApp.DataStore.UserAdapter)
+DA:11,12
+DA:12,12
+DA:13,12
+DA:14,12
+LF:32
+LH:29
+BRF:0
+BRH:0
+FNF:7
+FNH:7
+end_of_record
+SF:c:\Users\Jared Hunter\cs4790\BlabberApp\BlabberApp.Services\UserServiceFactory.cs
+FN:7,BlabberApp.DataStore.UserAdapter BlabberApp.Services.UserServiceFactory::CreateUserAdapter(BlabberApp.DataStore.IUserPlugin)
+FNDA:14,BlabberApp.DataStore.UserAdapter BlabberApp.Services.UserServiceFactory::CreateUserAdapter(BlabberApp.DataStore.IUserPlugin)
+DA:8,14
+DA:9,14
+DA:10,13
+DA:11,13
+DA:12,13
+DA:14,14
+DA:15,14
+BRDA:9,7,0,13
+BRDA:9,7,1,14
+FN:16,BlabberApp.DataStore.IUserPlugin BlabberApp.Services.UserServiceFactory::CreateUserPlugin(System.String)
+FNDA:14,BlabberApp.DataStore.IUserPlugin BlabberApp.Services.UserServiceFactory::CreateUserPlugin(System.String)
+DA:17,14
+DA:18,14
+DA:19,1
+DA:20,1
+DA:23,13
+DA:24,14
+BRDA:18,19,0,1
+BRDA:18,19,1,13
+FN:26,BlabberApp.Services.UserService BlabberApp.Services.UserServiceFactory::CreateUserService(BlabberApp.DataStore.UserAdapter)
+FNDA:12,BlabberApp.Services.UserService BlabberApp.Services.UserServiceFactory::CreateUserService(BlabberApp.DataStore.UserAdapter)
+DA:27,12
+DA:28,12
+DA:29,11
+DA:30,11
+DA:31,11
+DA:33,12
+DA:34,12
+BRDA:28,7,0,11
+BRDA:28,7,1,12
+LF:20
+LH:20
+BRF:6
+BRH:6
+FNF:3
+FNH:3
+end_of_record
